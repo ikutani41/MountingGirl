@@ -45,9 +45,9 @@ static AppDelegate s_sharedApplication;
 {
     // Gree Ads Rewards
 
- [GreeAdsReward setSiteID:@"15362" siteKey:@"5efb94a46f4d79b5d5dd68da55c26ab0" useSandBox:NO];
+ [GreeAdsReward setSiteID:@"xxx" siteKey:@"xxx" useSandBox:NO];
     NSURL *url = [NSURL URLWithString:@"yijmtgl://"];
-    [GreeAdsReward sendActionWithCampaignID:@"13212" advertisement:@"install" openURL:url];
+    [GreeAdsReward sendActionWithCampaignID:@"xxx" advertisement:@"install" openURL:url];
 
     // Override point for customization after application launch.
 
@@ -69,7 +69,7 @@ static AppDelegate s_sharedApplication;
     viewController.view = eaglView;
 
     // init Growthbeat
-    [[Growthbeat sharedInstance] initializeWithApplicationId:@"Pg2mKAEq5rIWSOih" credentialId:@"Mc7mfVT1ff3rfTIqMnLRumc2CLjvzrqi"];
+    [[Growthbeat sharedInstance] initializeWithApplicationId:@"xxx" credentialId:@"xxx"];
     // get device-token
     [[GrowthPush sharedInstance] requestDeviceTokenWithEnvironment:kGrowthPushEnvironment];
     
@@ -195,7 +195,7 @@ didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
 - (void) createAdView{
     //Admob
     self.gadView = [[GADBannerView alloc] initWithAdSize:kGADAdSizeBanner];
-    [self.gadView setAdUnitID:@"ca-app-pub-6034742531261216/1162161682"];
+    [self.gadView setAdUnitID:@"xxx"];
     [self.gadView setFrame:CGRectMake((viewController.view.frame.size.width - self.gadView.frame.size.width) /2, viewController.view.frame.size.height/2 + 250 - self.gadView.frame.size.height, self.gadView.frame.size.width, self.gadView.frame.size.height)];
     self.gadView.rootViewController = viewController;
     self.gadView.tag = 1;

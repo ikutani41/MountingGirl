@@ -33,3 +33,6 @@ https://itunes.apple.com/jp/app/id1018865789
 
 ## Google Play
 https://play.google.com/store/apps/details?id=org.cocos2dx.MountingGirl&hl=ja
+
+# Copyrights
+Copyright (C) 2016 Yutaro Ikutani & Yohei Yamazaki All Rights Reserved.

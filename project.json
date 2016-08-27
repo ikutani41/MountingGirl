@@ -1,0 +1,39 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : false,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d","extensions"],
+
+    "jsList" : [
+        "src/resource.js",
+        "src/app.js",
+        "src/AnimationLayer.js",
+        "src/BackgroundLayer.js",
+        "src/CollectionScene.js",
+        "src/EanimationLayer.js",
+        "src/EbackgroundLayer.js",
+        "src/EcountdownLayer.js",
+        "src/EndlessScene.js",
+        "src/EreadyLayer.js",
+        "src/EscoreLayer.js",
+        "src/EstatusLayer.js",
+        "src/globals.js",
+        "src/ListViewLayer.js",
+        "src/OtherLayer.js",
+        "src/PlayScene.js",
+        "src/PhraseLayer.js",
+        "src/ReadyLayer.js",
+        "src/ReplayLayer.js",
+        "src/ShoppingLayer.js",
+        "src/SnapshotLayer.js",
+        "src/StatusLayer.js",
+        "src/ProfileLayer.js",
+        "src/CountdownLayer.js"
+    ]
+}
